@@ -1,0 +1,67 @@
+
+<html>
+    <title>Online Compiler</title>
+    <style>
+        body
+        {
+            font-size:75%;
+            font-family:verdana,arial,'sans serif';
+            background-color:#FFFFF0;
+            color:#000080;
+            margin:10px;
+        }
+
+        h1 {font-size:200%;}
+        h2 {font-size:140%;}
+        h3 {font-size:110%;}
+
+        th {background-color:#ADD8E6;}
+
+        ul {list-style:circle;}
+        ol {list-style:upper-roman;}
+
+        a:link {color:#000080;}
+        a:hover {color:red;}
+
+    </style>
+    <body>
+        <h1>Compile Online</h1>
+        <form id="code" action="FrontEndCompiler" method="post">
+            <div>
+                <center>
+                    <label for="lang">Select Language:</br></label>
+                    <select name="lang" id="lang">
+                        <option value="10">Java (sun-jdk-1.6.0.17)</option>
+                    </select>
+                </center>
+                <div>
+                    <div>
+                        <center>
+                            <label for="source">Source Code:</br></label>
+                            <textarea cols="100" rows="15" name="userName" id="source"></textarea>
+                        </center>
+                    </div>
+                    <div>
+                        <center>
+                            <label for="input">Stdin:</br></label>
+                            <textarea cols="100" rows="5" name="input" id="input"></textarea>
+                        </center>
+                    </div>
+                    <div>
+                        <center>
+                            <input type="submit" name="submit" value="Submit" />
+                        </center>
+                    </div>
+                </form>
+                </br>
+                </br>
+                </br>
+                </br>
+                <div id="footer">
+                    <center>
+                        Written by: <a href="https://www.facebook.com/swapnil.gaikwad.79230305/">Swapnil Gaikwad</a> <br> Using Java Compiler available on my Computer
+                    </center>
+                </div>
+
+            </body>
+        </html>
