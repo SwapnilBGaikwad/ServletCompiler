@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
-  <display-name>OnlineCompiler</display-name>
+  <display-name>Compiler</display-name>
   <welcome-file-list>
     <welcome-file>index.html</welcome-file>
     <welcome-file>index.htm</welcome-file>
@@ -11,12 +11,12 @@
   </welcome-file-list>
   <servlet>
     <description></description>
-    <display-name>FrontEndCompiler</display-name>
-    <servlet-name>FrontEndCompiler</servlet-name>
-    <servlet-class>FrontEndCompiler</servlet-class>
+    <display-name>MainServer</display-name>
+    <servlet-name>MainServer</servlet-name>
+    <servlet-class>MainServer</servlet-class>
   </servlet>
   <servlet-mapping>
-    <servlet-name>FrontEndCompiler</servlet-name>
-    <url-pattern>/FrontEndCompiler</url-pattern>
+    <servlet-name>MainServer</servlet-name>
+    <url-pattern>/MainServer</url-pattern>
   </servlet-mapping>
 </web-app>
